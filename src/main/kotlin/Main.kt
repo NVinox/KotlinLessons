@@ -7,7 +7,7 @@ fun main() {
 
     println("Orders count: ${ordersCount}")
     println("Gratitude message: ${gratitudeMessage}")
-    println("Workers count: ${workersCount}")
+//    println("Workers count: ${workersCount}")
 
     workersCount = 1999u
 
