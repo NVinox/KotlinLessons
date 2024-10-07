@@ -1,11 +1,11 @@
 package org.example.lesson2
 
-const val BUFF: Float = 0.2f
-
-const val CRISTAL_COUNT: Byte = 7
-const val IRON_ORE_COUNT: Byte = 11
+const val BUFF: Byte = 20
 
 fun main() {
-    println("Cristal bonus: ${(CRISTAL_COUNT * BUFF).toInt()}")
-    println("Iron ore bonus: ${(IRON_ORE_COUNT * BUFF).toInt()}")
+    val cristalCount: Byte = 7
+    val ironOreCount: Byte = 11
+
+    println("Cristal bonus: ${cristalCount * BUFF / 100}")
+    println("Iron ore bonus: ${ironOreCount * BUFF / 100}")
 }
