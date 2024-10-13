@@ -1,11 +1,11 @@
 package org.example.lesson4
 
-const val availableSeats: Byte = 13
+const val AVAILABLE_SEATS: Byte = 13
 
 fun main() {
     val bookedToday: Byte = 13
     val bookedTomorrow: Byte = 9
 
-    println("[Доступность столиков на сегодня: ${bookedToday < availableSeats}]")
-    println("[Доступность столиков на сегодня: ${bookedTomorrow < availableSeats}]")
+    println("[Доступность столиков на сегодня: ${bookedToday < AVAILABLE_SEATS}]")
+    println("[Доступность столиков на сегодня: ${bookedTomorrow < AVAILABLE_SEATS}]")
 }
