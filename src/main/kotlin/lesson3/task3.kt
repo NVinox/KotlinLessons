@@ -1,17 +1,15 @@
 package org.example.lesson3
 
 fun main() {
-    val number: Byte = 6
+    val name: String = "Татьяна"
+    val patronymic: String = "Сергеевна"
+    var surname: String = "Андреева"
+    var age: Byte = 20
 
-    print("""
-        |$number * 1 = ${number * 1}
-        |$number * 2 = ${number * 2}
-        |$number * 3 = ${number * 3}
-        |$number * 4 = ${number * 4}
-        |$number * 5 = ${number * 5}
-        |$number * 6 = ${number * 6}
-        |$number * 7 = ${number * 7}
-        |$number * 8 = ${number * 8}
-        |$number * 9 = ${number * 9}
-    """.trimMargin())
+    println("$surname $name $patronymic, $age")
+
+    surname = "Сидорова"
+    age = 22
+
+    print("$surname $name $patronymic, $age")
 }
